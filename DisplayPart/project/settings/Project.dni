@@ -1,0 +1,164 @@
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-1000779263
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[SWOTraceHWSettings]
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+OverrideDefaultClocks=0
+[TraceHelperExtra]
+Enabled=0
+ShowSource=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{D:\RInfo\PID\MCUSoft\source\stm32f10x_it.c}.340.2@1" 0 0 0 0 "" 0 "" 0
+Count=1
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4 1
+Title1=Ch1
+Symbol1=0 4 1
+Title2=Ch2
+Symbol2=0 4 1
+Title3=Ch3
+Symbol3=0 4 1
+SumSortOrder=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[struct_types]
+Fmt0=S1Message-MsgHead	4	0
+[watch_formats]
+Fmt0={W}42:LAN_Error	3	0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\LANLib\library\src\LAN.c}.263.1" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\source\stm32f10x_it.c}.51.3" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "D:\Projects\WLAN\MCUSoft\FWLib\library\src\stm32f10x_flash.c" ""
+A1=_ "D:\Projects\WLAN\MCUSoft\FWLib\library\src\stm32f10x_gpio.c" ""
+A2=_ "D:\Projects\WLAN\MCUSoft\FWLib\library\src\stm32f10x_rcc.c" ""
+A3=_ "D:\Projects\WLAN\MCUSoft\nRFLib\library\src\hal_nrf_stm32_hw.c" ""
+A4=_ "D:\Projects\WLAN\MCUSoft\project\cortexm3_macro.s" ""
+A5=_ "D:\Projects\WLAN\MCUSoft\source\hw_config.c" ""
+A6=_ "H:\PID\MCUSoft\FWLib\library\src\stm32f10x_flash.c" ""
+A7=_ "H:\PID\MCUSoft\project\cortexm3_macro.s" ""
+A8=_ "H:\PID\MCUSoft\source\hw_config.c" ""
+A9=_ "H:\PID\MCUSoft\source\main.c" ""
+Count=10
+SuppressDialog=0
